@@ -65,7 +65,7 @@ export function AddBox(){
          try {
             await api.post("/ApiBox",  newBox ).then(() => navigation.navigate('Home'))           
 
-            reset();
+            
          } catch (error: any) {
              console.log(error.message);
          }

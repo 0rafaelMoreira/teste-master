@@ -80,7 +80,7 @@ export function EditBox(){
                 ds_titulo: form.ds_titulo,
                 ds_descricao: form.ds_descricao,
             }  ).then(() => navigation.navigate("Home"))           
-            reset();
+           
         } catch (error: any) {
             console.log(error.message);
         }
